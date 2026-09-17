@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: #FFF9F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 25px 50px;
+
+}
+h1{
+    font-size:2.5rem;
+    color: #E31355;
+}
+
+
+nav a{
+    text-decoration:none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px;
+}
+
+nav a:hover{
+    color:#E31355;
+}
+
+main section {
+    margin: 20px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    box-shadow:  0 4px 12px rgba(227, 19, 85, 0.12);
+}
+
+.greet{
+    
+    background-color:#FFF0F5;
+    text-align:center;
+    padding: 10px 20px; 
+}
+
+.greet h2{
+    font-size: 2rem;
+    color:rgba(248, 91, 91, 0.463);
+    margin-bottom:10px;
+}
+.greet h3{
+    font-size: 1.5em;
+    color: #333;
+}
+.greet p{
+    font-size: 0.9rem;
+    color:#333;
+}
+
+.quote{
+    /* font-style:italic; */
+    font-size: 1.1rem;
+    color:#333;
+    margin-bottom :20px;
+
+}
+
+.quote blockquote{
+    font-style:italic;
+    color: #c70744a9;
+    /* margin-bottom: 10px 20px; */
+    padding: 10px 20px;
+}
+
+.quote h2 {
+    color: #3D3535;
+    margin-bottom: 10px;
+}
+
+.daily-habits ul{
+    list-style: none;
+
+}
+.daily-habits li{
+    margin-bottom: 10px;
+
+}
+.daily-habits h2{
+   padding-bottom: 20px;
+  
+}
+.daily-habits input{
+    margin-right: 8px;
+}
+
+.today-tasks h2 {
+    margin-bottom: 10px;
+  
+}
+
+/* #today-task-list{
+    color: #e71b1b;
+    
+} */
+
+#add-task{
+    color:black;
+    background-color: #f3bbcc;
+     border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: bold;
+   margin-bottom: 5px
+    
+}
+#add-task:hover{
+    color:#f5eff1 ;
+   background-color: #E31355;
+    
+}
+
+.tom-tasks h2{
+margin-bottom: 10px;
+}
+
+#add-tomorrow-task{
+       color:black;
+    background-color: #f3bbcc;
+     border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: bold;
+    /* margin-bottom: 10px;
+    list-style: none; */
+}
+#add-tomorrow-task:hover{
+     color:#f5eff1;
+   background-color: #E31355;
+}
+.weekly-goals h2{
+   margin-bottom: 10px; 
+}
+#weekly-goal-list {
+    list-style: none;
+    color: #333;
+    padding: 0;
+}
+#weekly-goal-list li {
+    margin-bottom: 10px;
+}
+#add-goal{
+     color:black;
+    background-color: #f3bbcc;
+     border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#add-goal:hover{
+     color:#f5eff1;
+   background-color: #E31355;
+}
+
+
+.progress h2{
+    /* color: #E31355; */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#streak{
+color: #e71b1b; 
+
+}
+#year-progress{
+    color: #E31355;
+
+}
+.progress div{
+    margin-bottom: 12px;
+}
+
+.journal h2{
+    color: #E31355;
+    margin-bottom: 20px;
+}
+
+.journal h3{
+    color: #E31355;
+    margin-bottom: 10px;
+}
+
+#journaling-today{
+    background-color: #FFF9F2;
+    box-shadow:  0 4px 12px rgba(227, 19, 85, 0.12);
+    color: #333;
+    font-style: italic;
+     width: 80%;
+    min-height: 120px;
+    padding: 12px;
+    border: 1px solid #f3bbcc;
+    border-radius: 10px;
+    resize: vertical;
+}
+
+
+#journaling-today-btn{
+    color:black;
+    background-color: #f3bbcc;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#journaling-today-btn:hover{
+  color:#f5eff1;
+   background-color: #E31355;
+    
+
+}
+#today-task-list {
+    list-style: none;
+    color: #333;
+    padding: 0;
+}
+#today-task-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#today-task-list label {
+    cursor: pointer;
+}
+/* .mood{
+    /* display: flex; */
+    /* gap: 40px; */
+   
+/* } 
+
+

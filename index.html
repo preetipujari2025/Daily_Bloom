@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Bloom</title>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+ <header>
+       <h1>
+        DAILY BLOOM 
+       </h1>
+       <nav>
+        <a href ="index.html">
+            Home
+        </a>
+        <a href="calendar.html"> Calendar</a>
+        <a href="journal.html">Journal</a>
+        <a href ="progress.html">Progress</a>
+       </nav>
+ </header>
+ <section id="welcome-section">
+    <h2>🌷 Welcome to Daily Bloom</h2>
+    <p>What should we call you?</p>
+
+    <input
+        type="text"
+        id="name-input"
+        placeholder="Enter your name"
+    >
+
+    <button id="start-journey">Start My Journey 🌱</button>
+</section>
+ <main>
+    <section class="greet">
+        <h2 id="greeting">Good morning 🌷</h2>
+        <h3 id="user-name">[user's name]!</h3>
+        <p id="current-date">Date: [current date]</p>
+        <p>Ready to make today a beautiful day? ✨</p>
+        
+    </section>
+    <section class="quote">
+        <h2>Quote of the day...</h2>
+        <blockquote id="daily-quote">"Small steps every day lead to big changes."</blockquote>
+
+       
+    </section>
+    <section class ="daily-habits">
+        <h2>🌱 Daily Habits</h2>
+        <ul>
+            <li >
+                <label><input type = "checkbox" id="yoga">Yoga</label> </li>
+            <li><label><input type = "checkbox" id="english-speaking">Practice English Speaking </label> </li>
+            <li><label><input type = "checkbox" id="read-book">Read a book</label> </li>
+            <li><label><input type = "checkbox" id="dsa">Solving DSA </label> </li>
+         <!-- <li><label><input type = "checkbox" id="dsa">I am going to school  </label> </li> -->
+        
+        </ul>
+    </section>
+
+    <section class="today-tasks">
+    <h2>Today's Tasks</h2>
+
+    <ul id="today-task-list">
+        <!-- Today's tasks will be added here -->
+    </ul>
+
+    <button id="add-task">+ Add Task</button>
+    </section>
+
+    <section class="tom-tasks">
+    <h2>Tomorrow's Tasks</h2>
+
+    <ul id="tomorrow-task-list">
+        <!-- Tomorrow's tasks will appear here -->
+    </ul>
+
+    <button id="add-tomorrow-task">+ Add Task</button>
+    </section>
+
+   <section class="weekly-goals">
+    <h2>⭐ Weekly Goals</h2>
+
+    <ul id="weekly-goal-list">
+        <!-- Weekly goals will appear here -->
+    </ul>
+
+    <button id="add-goal">+ Add Goal</button>
+</section>
+
+    <section class="progress">
+        <h2> 🌸Progress</h2>
+        <div>Current Streak 🔥 <span id="streak"> <br>
+              0  </span></div>
+        <div> Year Progress 🌸 <span id="year-progress"> <br>
+            0% </span></div>
+
+    </section>
+    <section class="journal">
+        <h2>📖 Today's Journal</h2>
+        <h3 class="mood">🌸 How are you feeling today?</h3>
+        
+            <label><input type="radio" name="mood" value="happy"> 😊Happy</label>
+                <label><input type="radio" name="mood" value="good"> 🙂Good</label>
+                <label><input type="radio" name="mood" value="okay"> 😐Okay</label>
+                <label><input type="radio" name="mood" value="sad"> 😔 Sad</label>
+                <label><input type="radio" name="mood" value="tired"> 😴Tired</label>
+         
+        <h2>📝 All About Today...</h2>
+        <textarea  id="journaling-today" placeholder="Write  all about your day..."></textarea>
+        <button id="journaling-today-btn" >Save Journal</button>
+    </section>
+</main>   
+
+
+<footer>
+    <p>&copy; 2026 Daily Bloom . All rights reserved.</p>
+
+</footer>
+
+<script src="script.js">
+
+</script>
+</body>
+</html>
